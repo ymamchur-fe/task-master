@@ -7,5 +7,8 @@ export interface Task {
     status: TaskStatus;
 }
 
+// Type definition for an empty task
+export type EmptyTask = Omit<Task, 'id'>;
+
 // Enum-like type for task statuses
 export type TaskStatus = 'pending' | 'in progress' | 'completed';
