@@ -1,5 +1,4 @@
-Let's update the instructions to reflect the correct URL:
-
+Certainly! Here’s the updated `README.md` section with instructions on how to run the Storybook:
 
 ## Running the Project
 
@@ -35,4 +34,22 @@ To start the development server and run the project locally, follow these steps:
 
    ```
    http://localhost:5173/
+   ```
+
+## Running Storybook
+
+To run Storybook and view your components in isolation, follow these steps:
+
+1. **Start Storybook:**
+
+   ```bash
+   npm run storybook
+   ```
+
+2. **Open Storybook in Your Browser:**
+
+   Once Storybook is running, open your browser and go to:
+
+   ```
+   http://localhost:6006/
    ```
